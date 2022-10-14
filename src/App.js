@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Product from './components/Product/Product';
+import Navbar from './components/Navbar/Navbar';
+
+const App = () => {
+
+	// const products=[
+	// 	{id:1, name:"anas", description: "This is mu Name", image:"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"},
+	// 	{id:2, name:"MAcBook", description: "This is product of apple"}
+	//   ]
+	return (
+		<div className="App">
+		
+			<div className="container">
+			<Navbar /><br/>
+			<Product />
+			</div>
+		</div>
+	);
+};
 
 export default App;
