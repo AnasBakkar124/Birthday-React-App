@@ -1,23 +1,26 @@
-import React from "react";
+// import React from "react";
+// import Register from "../src/Pro/Register";
+// import Login from "../src/Pro/Login";
+// import GetData from "../src/Pro/GetData";
+// import { BrowserRouter } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 
-import Product from './components/Product/Product';
-import Navbar from './components/Navbar/Navbar';
+// // import Login from './Pro/Login'
 
-const App = () => {
+// const App = () => {
+// 	return (
+// 		<>
+// 			<BrowserRouter>
+// 				<Routes>
+// 					<Route path="/" element={<Register />}></Route>
+// 					<Route path="/login" element={<Login />}></Route>
+// 					<Route path="/dashboard" element={<GetData />}></Route>
+// 					{/* <Route path="/clg" element={<Login />}></Route> */}
+// 				</Routes>
+// 			</BrowserRouter>
+// 			,
+// 		</>
+// 	);
+// };
 
-	// const products=[
-	// 	{id:1, name:"anas", description: "This is mu Name", image:"https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"},
-	// 	{id:2, name:"MAcBook", description: "This is product of apple"}
-	//   ]
-	return (
-		<div className="App">
-		
-			<div className="container">
-			<Navbar /><br/>
-			<Product />
-			</div>
-		</div>
-	);
-};
-
-export default App;
+// export default App;

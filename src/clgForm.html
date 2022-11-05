@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task || Form</title>
+<style>
+    .column{
+        width: 25%;
+        
+      }
+      
+      .row{
+        width: 100%;
+        
+      }
+      
+      .space{
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .padd{
+        padding: 5px;
+        
+      }
+      .name{
+       display: flex;
+      }
+      .butt{
+        text-align: center;
+      }
+      .bg-img{
+        background-image: url(../2.jpg);
+        min-height: 380px;
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+      }
+
+      .colro{
+        color: white;
+      }
+    </style>
+
+
+
+
+
+</head>
+<body >
+    <div class="bg-img">
+        <p class="colro"><u>Register now while seats are available !</u></p>
+        <form action="https://www.google.com/">
+            <div class="row">
+               <div class="name">
+             <div class="column colro">
+               <div class="space padd">First Name
+                 <input type="text" name="fname" value=""/></div></br>
+               <div class="space padd">Last Name
+                 <input type="text" name="lname" value=""/></div></br>
+               <div class="space padd">Company/Institution
+                 <input type="text" name="inst" value=""/></div></br>
+               <div class="space padd">Adddress
+                 <textarea name="add" value=""></textarea></div></br>
+               <div class="space padd">City
+                 <input type="text" name="city" value=""/></div></br>
+               <div class="space padd">State/Province/Region
+               <select>
+                 <option>-Select-</option>
+                 <option>Sindh</option>
+                 <option>Punjab</option>
+                 <option>Balochistan</option>
+                 <option>KPK</option>
+               </select>
+               </div></br>
+               <div class="space padd">Country
+                 <input type="text" name="country" value=""/></div></br>
+               <div class="space padd">Email
+                 <input type="email" name="email" value=""/></div></br>
+               <div class="space padd">Phone Number
+               <input type="number" name="number" value=""/></div></br>
+          </div>
+       <div class="column colro"><p><u>Lunch</u></p>
+       <div class="space padd">Meal Perfomance
+         <select>
+           <option>-Select</option>
+           <option>Vegeterian</option>
+           <option>Non-Vegeterian</option>
+         </select>
+       
+       </div>
+       <div class="colro">
+         <p><u>Payment Details</u></p>
+          <div>
+           <input type="checkbox" name="cash" value=""/>Cash</br>
+           <input type="checkbox" name="cash" value=""/>Cheque</br>
+           <input type="checkbox" name="cash" value=""/>Demand Draft
+          </div>
+          <div class="space padd">
+           DD/Cheque No.
+             <input type="number" name="chq_num" value=""/>
+           </div>
+           <div class="space padd">
+           Drawn On (Bank Name)
+            <input type="text" name="bank_name" value=""/>  
+           </div>
+           <div class="space padd ">Payable at  
+            <input type="number" name="pay_num" value=""/>
+           </div>
+       </div></div>
+         </div>
+         <div class="butt">
+       <Button >Submit</Button>
+       <Button>Reset</Button>
+       </div>
+       </form>
+</div>
+</body>
+</html>
